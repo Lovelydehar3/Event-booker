@@ -1,6 +1,7 @@
 import React, { useState, useContext } from 'react';
 import { AuthContext } from '../context/AuthContext';
 import { useNavigate, Link } from 'react-router-dom';
+import PasswordInput from '../components/PasswordInput';
 
 const Register = () => {
     const [name, setName] = useState('');
@@ -68,8 +69,7 @@ const Register = () => {
                         </div>
                         <div>
                             <label className="block text-sm font-semibold text-gray-700 mb-2">Password</label>
-                            <input
-                                type="password"
+                            <PasswordInput
                                 required
                                 className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-gray-700 transition shadow-sm"
                                 value={password}

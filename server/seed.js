@@ -19,7 +19,9 @@ const users = [
     { name: 'Ethan Hunt', email: 'ethan@eventora.com', password: 'password123', role: 'user' },
     { name: 'Fiona Gallagher', email: 'fiona@eventora.com', password: 'password123', role: 'user' },
     { name: 'George Miller', email: 'george@eventora.com', password: 'password123', role: 'user' },
-    { name: 'Hannah Montana', email: 'hannah@eventora.com', password: 'password123', role: 'user' }
+    { name: 'Hannah Montana', email: 'hannah@eventora.com', password: 'password123', role: 'user' },
+    { name: 'Hannah Montana', email: 'lovepreetsingh73437@gmail.com', password: 'password123', role: 'user' },
+
 ];
 
 const events = [
